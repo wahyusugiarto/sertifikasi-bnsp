@@ -86,7 +86,7 @@
                       </h2>
                     </div>
                     <h6 class="mb-0">
-                      <center>silahkan login dahulu</center>
+                      <center>silahkan login dahulu untuk akses sistem</center>
                     </h6>
                     <div class="card-header">
                     </div>
