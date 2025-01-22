@@ -82,7 +82,6 @@ class Pelanggan extends AUTH_Controller
 
 	public function Add()
 	{
-
 		/*ini harus ada boss */
 		$data['userdata'] = $this->userdata;
 		$access = $this->M_sidebar->access('add', self::__kode_menu);
@@ -105,7 +104,6 @@ class Pelanggan extends AUTH_Controller
 
 		$errCode = 0;
 		$errMessage = "";
-
 		$date = date('Y-m-d');
 		$nama = trim($this->input->post("nama"));
 		$telp = trim($this->input->post("telp"));
