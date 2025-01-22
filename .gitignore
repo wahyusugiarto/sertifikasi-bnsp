@@ -1,0 +1,13 @@
+/application/logs/log-*
+/nbproject/*
+/nbproject/private/
+/application/config/database.php
+/application/config/config.php
+/application/cache/*
+/assets/user/*
+!/assets/user/no-image.jpg
+!/assets/user/No-profile-LinkedIn.jpg
+!/assets/user/No-profile-LinkedIn1.jpg
+!/assets/user/No-profile-LinkedIn2.jpg
+!/assets/user/No-profile-LinkedIn3.jpg
+.htaccess
