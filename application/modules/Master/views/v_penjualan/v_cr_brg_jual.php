@@ -28,6 +28,7 @@
 				<td class="center"><?php echo $no++; ?>
 					<input type="hidden" id="cr_kd_brg_<?php echo $b->id; ?>" value="<?php echo $b->id; ?>">
 					<input type="hidden" id="img_thumb_<?php echo $b->id; ?>" value="<?php echo $b->gambar; ?>">
+					<input type="hidden" id="stok_<?php echo $b->id; ?>" value="<?php echo $b->stok; ?>">
 				</td>
 				</td>
 				<input type="hidden" id="brg_buy_<?php echo $b->id; ?>" value="<?php echo number_format($b->harga_beli, 0, ".", "."); ?>""></td>

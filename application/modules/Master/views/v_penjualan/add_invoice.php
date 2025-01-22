@@ -129,6 +129,7 @@
     var nama = $('#cr_nama_brg_' + nomor).val();
     var harga = $('#cr_hrg_brg_' + nomor).val();
     var harga_beli = $('#brg_buy_' + nomor).val();
+    var stok = $('#stok_' + nomor).val();
     var jumlah_beli = $('#cr_qty_' + nomor).val();
     var jumlah_beli = jumlah_beli.trim();
 
@@ -140,9 +141,16 @@
     }
 
     if (error == 0) {
-      if (jumlah_beli == '0') {
+      if (jumlah_beli <= 0) {
         error++;
         message = "jumlah minimum harus 1 tidak boleh 0 .";
+      }
+    }
+
+    if (error == 0) {
+      if (jumlah_beli > stok) {
+        error++;
+        message = "maaf jumlah melebihi stok .";
       }
     }
 
