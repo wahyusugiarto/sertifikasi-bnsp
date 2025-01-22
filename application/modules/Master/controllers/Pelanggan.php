@@ -50,7 +50,6 @@ class Pelanggan extends AUTH_Controller
 		$no = $_POST['start'];
 
 		foreach ($list as $brand) {
-
 			$no++;
 			$row = array();
 			$row[] = $no;
